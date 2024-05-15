@@ -64,20 +64,28 @@ header button img{
     background-image: url(./images/new.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
 }
 .welcome{
-    width: 30%;
+    border: 2px solid red;
+    width: 60%;
     color: white;
     padding: 5% 8%;
-    margin: 15px; 
+    /* margin: 15px;  */
 }
 .welcome a{
     padding: 10px;
-    margin: 25px 15px;
+    /* margin: 205px 15px; */
+    /* margin-top: 50px; */
     border: 1px dotted white;
 }
+.note{
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid red;
+}
 .read-more{
+    margin-right: 70px;
     background-color: white;
     color: black;
 }
@@ -86,11 +94,12 @@ header button img{
     font-size: 15px;
 }
 .welcome h1{
-    font-size: 30px;
+    font-size: 20px;
     /* font-style: oblique; */
 }
 
 .summary{
+    width: 100%;
     border: 2px solid black;
     margin: 15px;
     display: flex;
@@ -160,6 +169,6 @@ header button img{
         color: black;
     }
     .summary{
-        display: none;
+        /* display: none; */
     }
 }

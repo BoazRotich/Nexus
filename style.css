@@ -67,10 +67,10 @@ header button img{
     height: 100vh;
 }
 .welcome{
-    border: 2px solid red;
     width: 60%;
     color: white;
     padding: 5% 8%;
+    line-height: 2;
     /* margin: 15px;  */
 }
 .welcome a{
@@ -80,9 +80,9 @@ header button img{
     border: 1px dotted white;
 }
 .note{
-    width: 100%;
+    width: 120%;
     font-size: 14px;
-    border: 2px solid red;
+    margin: 15px;
 }
 .read-more{
     margin-right: 70px;
@@ -99,13 +99,14 @@ header button img{
 }
 
 .summary{
-    width: 100%;
+    width: 90%;
     border: 2px solid black;
-    margin: 15px;
+    margin: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -100px;
+    margin-left: 70px;
 
 }
 
@@ -169,7 +170,8 @@ header button img{
         color: black;
     }
     .summary{
-        /* display: none; */
+       display:block;
+    
     }
 }
 @media(max-width:487px){

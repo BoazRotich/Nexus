@@ -172,3 +172,8 @@ header button img{
         /* display: none; */
     }
 }
+@media(max-width:487px){
+    .welcome{
+        width: 90%;
+    }
+}

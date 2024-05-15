@@ -7,13 +7,14 @@ body{
 a{
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 header{
     position: sticky;
     top: 0;
     z-index: 10;
     display: flex;
-    padding: 5px 20px;
+    padding: 5px 10px;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(6, 6, 89);
@@ -25,18 +26,26 @@ header >a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+    width: 20%;
 }
 
 header a img{
-    width: 15%;
+    width: 20%;
     border-radius: 50%;
 }
 header nav a{
-    margin: 0 20px;
+    margin: 0 10px;
 }
-header :nth-last-child(2) a{
-    padding: 5px;
+
+header button{
+    border: none;
+    background-color: transparent;
+    height: 23px;
+    display: none;
+}
+header button img{
+    height: 100%;
 }
 
 .get-started{
@@ -85,4 +94,30 @@ header :nth-last-child(2) a{
     background-image: url(/images/danger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media(max-width:660px){
+    header button{
+        display: block;
+    }
+    header nav{
+        position: fixed;
+        width: 270px;
+        left: -350px;
+        top: 0;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        transition: left 0.4s ease-in-out;
+    
+    }
+    header nav.active{
+        left:0px
+    }
+    header nav a{
+        color: black;
+    }
 }

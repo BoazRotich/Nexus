@@ -61,7 +61,7 @@ header button img{
 /* main section containing everything */
 
 .intro{
-    background-image: url(/images/nice.jpg);
+    background-image: url(./images/nice.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;

@@ -175,5 +175,6 @@ header button img{
 @media(max-width:487px){
     .welcome{
         width: 90%;
+        height: 100%;
     }
 }

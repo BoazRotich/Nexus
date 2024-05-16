@@ -6,6 +6,8 @@
     <title>Nexus Security Company</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
 
@@ -41,10 +43,8 @@
             <a href="#">Our Services</a>
         </div>
         </div>
-
-       
-        
     </section>
+
     <section class="summary">
         <div class="first-part">
             <img src="./images/protect systems.png" alt="Protect systems">
@@ -65,16 +65,108 @@
         
     </section>
     <section class="about">
+        <div class="cyber">
+            <img src="./images/cyber.jpg" alt="About what we do">
+        </div>
+
+        <div class="about-us">
+            <h3>About Us</h3>
+            <h1>Don't wait for an attack. Stay ahead of threats with our comprehensive cybersecurity solutions.</h1>
+            <p>In the event of a security incident, we have a defined incident response plan that outlines the steps we will take to identify, contain, eradicate the threat, and recover from the incident.</p>
+        <div class="note1">
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        </div>
 
     </section>
     <section class="services">
+        <h3>Our Services</h3>
+        <h1>We Offer Different Cyber Security Services</h1>
+        <p>Don't wait for an attack. Stay ahead of threats with our comprehensive cybersecurity solutions.</p>
+        <div class="main1">
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+    </div>
+    <div class="main1">
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+        <div class="services-main">
+            <img src="./images/keep security.png" alt="Protect systems">
+            <h3>StandBy 24/7</h3>
+            <p>Ensuring security is a continuous process that involves implementing robust measures, staying vigilant against evolving threats.</p>
+        </div>
+    </div>
 
     </section>
+    <footer>
+        <div class="main-footer">
+        <div class="footer-image">
+            <img src="./images/logo.jpg" alt="Nexus logo footer">
+            <h3>Nexus Security Co.</h3>
+            <p>Protecting your data is our priority.</p>
+        </div>
+        <div class="get-in-touch">
+            <h3>Get in touch</h3>
+            <a href="facebook.com"><ion-icon name="location-outline"></ion-icon>Location</a>
+            <a href="mailto:info@nexus.co.ke"><ion-icon name="mail-outline"></ion-icon>Message</a>
+            <a href="tel:+254798343624"><ion-icon name="call-outline"></ion-icon> Call</a>
+        </div>
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <a href="#">home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="social-links">
+            <h3>Follow Us on</h3>
+            <a href="facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="Youtube.com"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="Instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+
+        </div>
+        
+        </div>
+        <div class="terms">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Nexus Security Company. All rights reserved.</p>
+          </div>
+          <div class="privacy-policy">
+            <p>Privacy Policy <a href="#">Terms & Condition</a></p>
+          </div>
+        </div>
+    </footer>
     <script>
         document.getElementById("mobile-menu").addEventListener("click", ()=>{
           document.querySelector("nav").classList.toggle("active")
         })
           
         </script>
+        <script>
+            document.getElementById('year').innerText = new Date().getFullYear();
+          </script>
+        
 </body>
 </html>

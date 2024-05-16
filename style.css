@@ -2,7 +2,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: rgb(6, 6, 89);
+    background-color: white;
 }
 a{
     text-decoration: none;
@@ -65,6 +65,7 @@ header button img{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
 }
 .welcome{
     width: 60%;
@@ -100,7 +101,6 @@ header button img{
 
 .summary{
     width: 90%;
-    border: 2px solid black;
     margin: 15px 20px;
     display: flex;
     align-items: center;
@@ -134,7 +134,41 @@ header button img{
 /* second section about */
 .about{
     background-color: rgb(239, 230, 230);
-    height: 90vh;
+    height: 60vh;
+    display: flex;
+    width: 100vp;
+}
+.cyber{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 15px;
+}
+.cyber img{
+    width: 80%;
+    margin: 15px;
+}
+.about-us{
+    padding: 35px;
+    width: 40%;
+    margin: 15px;
+}
+.about-us h3{
+    font-size: 15px;
+    color: rgb(0, 187, 255);
+}
+.about-us h1{
+    font-size: 16px;
+}
+.about-us p{
+    font-size: 13px;
+    font-style: oblique;
+}
+.about-us .note1 a{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: lightgreen;
 }
 
 /* third section services section */
@@ -143,7 +177,110 @@ header button img{
     background-image: url(./images/danger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
+.services h3:first-child{
+    color: rgb(0, 187, 255);
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.services-main{
+    margin: 20px;
+    background-color: white;
+    width: 30%;
+    color: black;
+    text-align: center;
+    /* padding: 15px; */
+}
+.services-main img{
+    width: 35px;
+}
+
+
+/* foooter */
+footer{
+    background-color: rgb(6, 6, 89);
+    border-radius: 0 80px 0 80px;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+    color: white;
+
+}
+.footer-image{
+    width: 25%;
+    text-align: center
+    
+}
+.footer-image h3{
+    font-size: 16px;
+}
+.footer-image p{
+    font-size: 12px;
+    font-style: oblique;
+}
+.footer-image img{
+    width: 40%;
+    border-radius: 50%;
+}
+.get-in-touch{
+    width: 25%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.get-in-touch a ion-icon{
+    margin-right: 15px;
+}
+
+.quick-links{
+    width: 25%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-links{
+    width: 25%;
+    padding: 15px;
+    display: inline-block;
+}
+.social-links a ion-icon{
+    height: 10%;
+    width: 10%;
+    padding: 2%;
+    border-radius: 50%;
+    background-color: rgb(7, 69, 7);
+}
+.terms{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: white;
+    border-top: 1px solid white;
+}
+.container {
+    max-width: 50%; /* Limit the width of the container */
+    margin: 15px;
+    margin-left: 20px;
+  }
+  .container p{
+    margin: 0;
+  }
+  .privacy-policy a{
+    color: rgb(0, 187, 255);
+  }
+
 
 @media(max-width:660px){
     header button{

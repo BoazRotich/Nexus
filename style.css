@@ -346,6 +346,9 @@ footer{
     header nav a{
         color: black;
     }
+    .intro{
+        height: 50vh;
+    }
     .summary{
        display:block;
     

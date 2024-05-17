@@ -118,7 +118,7 @@ header button img{
 
 .first-part{
     margin: 30px;
-    background-color: white;
+    background-color: rgb(243, 243, 243);
     width: 30%;
     color: black;
     text-align: center;
@@ -209,8 +209,6 @@ header button img{
 
 /* why the best section */
 .why-best{
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 80vh;
     display: flex;
     padding: 15px;
@@ -391,8 +389,8 @@ footer{
         height: 155vh;
     }
     .services-main{
-        width: 97%;
-        margin: 2px;
+        width: 50%;
+        margin: 8px auto;
     }
     .services h3{
         font-size: 12px;
@@ -417,10 +415,10 @@ footer{
     .summary{
         width: 70%;
         margin: 15px;
-        padding: 15px;
+        /* padding: 15px; */
     }
     .about{
-        height: 70vh;
+        height: 55vh;
     }
     .cyber{
         width: 100%;
@@ -429,7 +427,7 @@ footer{
     .cyber img{
         margin: 0;
         width: 100%;
-        height: 35vh;
+        height: 15vh;
     }
     .about-us{
         padding: 0;
@@ -438,10 +436,14 @@ footer{
       
     }
     .about-us h1{
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .about-us p{
+        font-size: 11px;
     }
     .read-more{
        margin: 0;
+       font-size: 12px;
     }
     .welcome h1{
         font-size: 15px;
@@ -451,8 +453,8 @@ footer{
         font-size: 12px;
     }
     .first-part{
-        width: 100%;
-        margin: 0;
+        width: 60%;
+        margin: 5px auto;
     }
     .main1{
         display: block;
@@ -461,11 +463,12 @@ footer{
         
     }
     .services{
-        height: 155vh;
+        height: 200vh;
+        text-align: center;
     }
     .services-main{
-        width: 97%;
-        margin: 2px;
+        width: 60%;
+        margin: 5px auto;
     }
     .services h3{
         font-size: 12px;
@@ -476,4 +479,42 @@ footer{
     .services p{
         font-size: 10px;
     }
+    
+    /* Why choose us section */
+    .best-image img{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .bestbest h3{
+        font-size: 14px;
+    }
+    .bestbest h2{
+        font-size: 14px;
+    }
+    .bestbest h4{
+        font-size: 13px;
+    }
+    .bestbest p{
+        font-size: 11px;
+    }
+
+    /* footer */
+    .main-footer{
+        display: inline-block;
+    }
+    .footer-image, .get-in-touch, .quick-links, .social-links{
+        width: 100%;
+    }
+    .get-in-touch, .quick-links{
+        gap: 15px;
+    }
+    .main-footer{
+        padding: 10px;
+    }
+    .social-links a ion-icon{
+        height: 5%;
+        width: 5%;
+        padding: 1%;
+    }
+
 }

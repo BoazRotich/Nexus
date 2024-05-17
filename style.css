@@ -37,6 +37,12 @@ header a img{
 header nav a{
     margin: 0 10px;
 }
+header nav a:focus{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 header button{
     border: none;
@@ -168,18 +174,18 @@ header button img{
 .about-us .note1 a{
     padding: 15px;
     margin-top: 10px;
-    background-color: lightgreen;
+    background-color: white;
 }
 
 /* third section services section */
 .services{
-    height: 90vh;
+    height: 100vh;
     background-image: url(./images/danger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 .services h3:first-child{
     color: rgb(0, 187, 255);
@@ -190,21 +196,53 @@ header button img{
     padding: 10px;
 }
 .services-main{
-    margin: 20px;
+    margin: 5px;
     background-color: white;
-    width: 30%;
+    width: 25%;
     color: black;
     text-align: center;
-    /* padding: 15px; */
+    padding: 5px;
 }
 .services-main img{
     width: 35px;
 }
 
+/* why the best section */
+.why-best{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    display: flex;
+    padding: 15px;
+}
+.best-image{
+    width: 50%;
+    text-align: center;
+}
+.best-image img{
+    width:60%;
+    margin: 25px;
+   
+}
+.bestbest{
+    width: 50%;
+    padding: 15px;
+
+}
+.bestbest h3{
+    color: rgb(0, 187, 255);
+    font-size: 16px;
+}
+.bestbest h4{
+    font-style: oblique;
+    font-size: 16px;
+}
+
+
 
 /* foooter */
 footer{
-    background-color: rgb(6, 6, 89);
+    background-color: rgb(32, 32, 68);
     border-radius: 0 80px 0 80px;
 }
 .main-footer{
@@ -268,6 +306,7 @@ footer{
     padding: 0 10%;
     color: white;
     border-top: 1px solid white;
+    font-size: 11px;
 }
 .container {
     max-width: 50%; /* Limit the width of the container */
@@ -279,9 +318,10 @@ footer{
   }
   .privacy-policy a{
     color: rgb(0, 187, 255);
+    font-size: 11px;
   }
 
-
+/* media query */
 @media(max-width:660px){
     header button{
         display: block;

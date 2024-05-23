@@ -196,12 +196,23 @@ header button img{
     padding: 10px;
 }
 .services-main{
-    margin: 5px;
+    margin: 20px;
     background-color: white;
-    width: 25%;
+    width: 18%;
     color: black;
     text-align: center;
     padding: 5px;
+}
+.services-main:hover{
+    background-color: rgb(218, 226, 233);
+    transform: scale(1.2); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.services-main h3{
+    font-size: 14px;
+}
+.services-main p{
+    font-size: 12px;
 }
 .services-main img{
     width: 35px;

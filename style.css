@@ -509,7 +509,7 @@ footer{
         gap: 15px;
     }
     .main-footer{
-        padding: 10px;
+        padding: 0px;
     }
     .social-links a ion-icon{
         height: 5%;

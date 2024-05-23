@@ -405,7 +405,7 @@ footer{
 @media(max-width:500px){
     .intro{
         width: 100%;
-        height: 60vh;
+        height: 50vh;
     }
     .welcome{
         width: 80%;
@@ -418,7 +418,7 @@ footer{
         /* padding: 15px; */
     }
     .about{
-        height: 55vh;
+        height: 45vh;
     }
     .cyber{
         width: 100%;
@@ -463,7 +463,7 @@ footer{
         
     }
     .services{
-        height: 200vh;
+        height: 150vh;
         text-align: center;
     }
     .services-main{
@@ -481,8 +481,11 @@ footer{
     }
     
     /* Why choose us section */
+    .why-best{
+        height: 60vh;
+    }
     .best-image img{
-        width: 100%;
+        width: 90%;
         margin: 25px 0;
     }
     .bestbest h3{
